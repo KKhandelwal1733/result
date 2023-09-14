@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: url(imagexx.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.compartment{
+    /* backdrop-filter: blur(10px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lawyer-details1 {
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    /* margin: auto; */
+    color: #3367b4;
+    /* gap: 20px; */
+    transition: .2s ease-in-out;
+}
+.lawyer-details2 {
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    color: #3367b4;
+    /* margin: auto; */
+    /* gap: 20px; */
+    transition: .2s ease-in-out;
+}
+.lawyer-details3 {
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    color: #3367b4;
+    /* margin: auto; */
+    /* gap: 20px; */
+    transition: .2s ease-in-out;
+}
+.lawyer-details1:hover{
+    transform: translateY(5px);
+    scale: 1.05;
+    z-index: 5;
+}
+.lawyer-details2:hover{
+    transform: translateY(5px);
+    scale: 1.05;
+    z-index: 5;
+}
+.lawyer-details3:hover{
+    transform: translateY(5px);
+    scale: 1.05;
+    z-index: 5;
+}
+#bottomRightButton{
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:9px;
+    transition: .3s ease-in-out;
+}
+#bottomRightButton:hover {
+    background: #0056b3;
+    scale: 1.04;
+}
